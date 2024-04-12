@@ -44,6 +44,7 @@ export default function Home() {
       <div className="w-full">
           <div className='container mx-auto'>
               <div className='flex flex-col gap-20 py-20'>
+               
                 <h1 className="px-4 lg:px-0 text-2xl font-bold">PROJETOS</h1>
 
                 <div className="grid lg:grid-cols-2 lg:px-0 px-4 grid-cols-1 gap-20">
