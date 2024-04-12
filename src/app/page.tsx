@@ -22,7 +22,7 @@ export default function Home() {
               <p className="max-w-lg font-medium">Meu nome é Gabriel, tenho 19 anos e estou em busca de uma oportunidade para atuar em uma empresa, tenho 1 ano de experiência com front-end em projetos freelancer.</p>
               <div className="flex gap-2">
                 
-                <a target="_blank" className="w-10 h-10 rounded-md shadow text-slate-700 bg-slate-50 cursor-pointer hover:bg-white transition text-center flex items-center justify-center" href='https://firebasestorage.googleapis.com/v0/b/gabrielferreira-ee0cd.appspot.com/o/Programador%20frontend.pdf?alt=media&token=5abb58aa-06d9-4e20-a3c3-3b7ab057a9ba'><FontAwesomeIcon icon={faFileLines}/></a>  
+                <a target="_blank" className="w-10 h-10 rounded-md shadow text-slate-700 bg-slate-50 cursor-pointer hover:bg-white transition text-center flex items-center justify-center" href='https://firebasestorage.googleapis.com/v0/b/gabrielferreira-ee0cd.appspot.com/o/Programador%20frontend.pdf?alt=media&token=515e39f6-221f-401a-9ad4-11fe7eb9a1ec'><FontAwesomeIcon icon={faFileLines}/></a>  
                  
                 <a target="_blank" className="w-10 h-10 rounded-md shadow text-slate-700 bg-slate-50 cursor-pointer hover:bg-white transition text-center flex items-center justify-center" href="https://github.com/Player1mene"><FontAwesomeIcon icon={faGithubAlt}/></a>  
                 
