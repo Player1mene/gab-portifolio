@@ -9,12 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
-    },
+        'project-ui': "url('https://firebasestorage.googleapis.com/v0/b/gabrielferreira-ee0cd.appspot.com/o/project-ui-min.png?alt=media&token=8a9f49ec-493a-428e-8199-f9d67ef48915')",
+      }
+    }
   },
   plugins: [],
 };
+
 export default config;

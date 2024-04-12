@@ -1,112 +1,79 @@
+"use client"
+import React from 'react'
 import Image from "next/image";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFileLines, faGlobe, faGrinAlt} from '@fortawesome/free-solid-svg-icons';
+import { faGitAlt, faGithub, faGithubAlt, faLinkedin, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className="flex min-h-screen flex-col bg-gradient-to-tl from-stone-100 from-0% to-white to-75%">
+      <div className="bg-project-ui bg-cover bg-center">
+
+      <div className="container h-full mx-auto py-0 px-4">
+        <div className="w-full h-screen flex flex-col gap-5 justify-center">
+            <div className="flex justify-between items-center w-full">
+              <Image src="https://media.discordapp.net/attachments/1091340777197670460/1228360831381540946/image.png?ex=662bc32c&is=66194e2c&hm=b5a0d0241c87ce5c9f0e624b8f69b7d7e74c9c9fd81d39d05a37302c714ce970&=&format=webp&quality=lossless" width="141" height="141" alt=""/>
+              <Image src="https://media.discordapp.net/attachments/1091340777197670460/1228371180747227167/image.png?ex=662bcccf&is=661957cf&hm=7e14222d669b12fe68d8f0c357d85ee4d8bced433be9c866045700007837ccdf&=&format=webp&quality=lossless" width="159" height="159" alt=""/>
+            </div>
+            <div className="flex flex-col gap-1">
+              <p className="font-medium">Olá, 👋 sou</p>
+              <h1 className="text-8xl font-bold tracking-tighter relative -left-1">Desenvolvedor Front-end</h1>
+              <p className="max-w-lg font-medium">Meu nome é Gabriel, tenho 19 anos e estou em busca de uma oportunidade para atuar em uma empresa, tenho 1 ano de experiência com front-end em projetos freelancer.</p>
+              <div className="flex gap-2">
+                
+                <a target="_blank" className="w-10 h-10 rounded-md shadow text-slate-400 bg-slate-50 cursor-pointer hover:bg-white transition text-center flex items-center justify-center" href='https://firebasestorage.googleapis.com/v0/b/gabrielferreira-ee0cd.appspot.com/o/Programador%20frontend.pdf?alt=media&token=5abb58aa-06d9-4e20-a3c3-3b7ab057a9ba'><FontAwesomeIcon icon={faFileLines}/></a>  
+                 
+                <a target="_blank" className="w-10 h-10 rounded-md shadow text-slate-400 bg-slate-50 cursor-pointer hover:bg-white transition text-center flex items-center justify-center" href="https://github.com/Player1mene"><FontAwesomeIcon icon={faGithubAlt}/></a>  
+                
+                <a target="_blank" className="w-10 h-10 rounded-md shadow text-slate-400 bg-slate-50 cursor-pointer hover:bg-white transition text-center flex items-center justify-center" href='https://www.linkedin.com/in/gabriel-sifr/'><FontAwesomeIcon icon={faLinkedinIn}/></a>  
+              
+              </div>
+            </div>
+            <div className="flex justify-center items-center w-full">
+              <Image src="https://media.discordapp.net/attachments/1091340777197670460/1228371283981500416/image.png?ex=662bcce8&is=661957e8&hm=f0ab915500becd9d4fa27bf0a985f13223058fe4e6912ebee6fd39b725676284&=&format=webp&quality=lossless" width="141" height="141" alt=""/>
+            </div>
         </div>
+
       </div>
+      
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+
       </div>
+      
+      <div className="w-full">
+          <div className='container mx-auto'>
+              <div className='flex flex-col gap-20 py-20'>
+                <h1 className="text-2xl font-bold">PROJETOS</h1>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+                <div className="grid grid-cols-2 gap-20">
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+                  <div className='flex flex-col gap-2'>
+                    <Image className='w-full h-auto' width="1000" height="1000" alt='' src="https://firebasestorage.googleapis.com/v0/b/gabrielferreira-ee0cd.appspot.com/o/abea-ui-min.png?alt=media&token=24c1ac70-e511-4d4f-98de-0b583b6cb571"/>
+                    <h1 className="text-2xl font-bold">ABEA</h1>
+                    <p className='font-medium'>O site da Associação do Bem-Estar Animal (ABEA) é uma plataforma online dedicada a promover e facilitar o cuidado com os animais. Ele serve como um recurso abrangente para todos os interessados no bem-estar animal, oferecendo uma variedade de informações, recursos e ferramentas úteis.</p>
+                    
+                    <div className='flex gap-5 w-full'>
+                      <a className="shadow rounded-md w-full py-2 flex justify-center items-center gap-2 cursor-pointer bg-white hover:bg-slate-50 text-slate-400 transition" target="_blank" href='https://orng-abea-project.vercel.app/'><FontAwesomeIcon icon={faGlobe}/> Visitar Website</a>
+                      <a className="shadow rounded-md w-full py-2 flex justify-center items-center gap-2 cursor-pointer bg-white hover:bg-slate-50 text-slate-400 transition" target="_blank" href="https://github.com/Player1mene/orng-abea"><FontAwesomeIcon icon={faGithub}/>  Ver Repositório</a>
+                    </div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
+                  </div>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+                  <div className='flex flex-col gap-2'>
+                    <Image className='w-full h-auto' width="1000" height="1000" alt='' src="https://firebasestorage.googleapis.com/v0/b/gabrielferreira-ee0cd.appspot.com/o/phonksec-ui-min.png?alt=media&token=0a55f48d-a8ee-4e7c-90a1-1e518b087333"/>
+                    <h1 className="text-2xl font-bold">PHONKSEC</h1>
+                    <p className='font-medium'>O site da PhonkSec foi cuidadosamente desenvolvido para oferecer uma experiência de usuário fluida e intuitiva. Utilizando as mais recentes tecnologias web, o site é responsivo, adaptando-se perfeitamente a qualquer dispositivo, seja desktop, tablet ou smartphone. Sua interface limpa e moderna permite uma navegação fácil e sem complicações.</p>
+                    
+                    <div className='flex gap-5 w-full'>
+                      <a className="shadow rounded-md w-full py-2 flex justify-center items-center gap-2 cursor-pointer bg-white hover:bg-slate-50 text-slate-400 transition" target="_blank" href='https://phonksec.vercel.app/'><FontAwesomeIcon icon={faGlobe}/> Visitar Website</a>
+                      <a className="shadow rounded-md w-full py-2 flex justify-center items-center gap-2 cursor-pointer bg-white hover:bg-slate-50 text-slate-400 transition" target="_blank" href='https://github.com/Player1mene/phonksec'><FontAwesomeIcon icon={faGithub}/>  Ver Repositório</a>
+                    </div>
+
+                 </div>
+                </div>
+              </div>
+          </div>
       </div>
     </main>
   );
