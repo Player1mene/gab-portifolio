@@ -18,7 +18,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-1 text-center lg:text-left">
               <p className="font-medium">Olá, 👋 sou</p>
-              <h1 className="text-6xl lg:text-8xl font-bold tracking-tighter relative -left-1">Desenvolvedor Front-end</h1>
+              <h1 className="text-5xl lg:text-8xl font-bold tracking-tighter relative -left-1">Desenvolvedor Front-end</h1>
               <p className="max-w-lg font-medium">Meu nome é Gabriel, tenho 19 anos e estou em busca de uma oportunidade para atuar em uma empresa, tenho 1 ano de experiência com front-end em projetos freelancer.</p>
               <div className="flex lg:justify-start justify-center  gap-2">
                 
