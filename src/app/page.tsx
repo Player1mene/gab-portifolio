@@ -22,11 +22,11 @@ export default function Home() {
               <p className="max-w-lg font-medium">Meu nome é Gabriel, tenho 19 anos e estou em busca de uma oportunidade para atuar em uma empresa, tenho 1 ano de experiência com front-end em projetos freelancer.</p>
               <div className="flex gap-2">
                 
-                <a target="_blank" className="w-10 h-10 rounded-md shadow text-slate-400 bg-slate-50 cursor-pointer hover:bg-white transition text-center flex items-center justify-center" href='https://firebasestorage.googleapis.com/v0/b/gabrielferreira-ee0cd.appspot.com/o/Programador%20frontend.pdf?alt=media&token=5abb58aa-06d9-4e20-a3c3-3b7ab057a9ba'><FontAwesomeIcon icon={faFileLines}/></a>  
+                <a target="_blank" className="w-10 h-10 rounded-md shadow text-slate-700 bg-slate-50 cursor-pointer hover:bg-white transition text-center flex items-center justify-center" href='https://firebasestorage.googleapis.com/v0/b/gabrielferreira-ee0cd.appspot.com/o/Programador%20frontend.pdf?alt=media&token=5abb58aa-06d9-4e20-a3c3-3b7ab057a9ba'><FontAwesomeIcon icon={faFileLines}/></a>  
                  
-                <a target="_blank" className="w-10 h-10 rounded-md shadow text-slate-400 bg-slate-50 cursor-pointer hover:bg-white transition text-center flex items-center justify-center" href="https://github.com/Player1mene"><FontAwesomeIcon icon={faGithubAlt}/></a>  
+                <a target="_blank" className="w-10 h-10 rounded-md shadow text-slate-700 bg-slate-50 cursor-pointer hover:bg-white transition text-center flex items-center justify-center" href="https://github.com/Player1mene"><FontAwesomeIcon icon={faGithubAlt}/></a>  
                 
-                <a target="_blank" className="w-10 h-10 rounded-md shadow text-slate-400 bg-slate-50 cursor-pointer hover:bg-white transition text-center flex items-center justify-center" href='https://www.linkedin.com/in/gabriel-sifr/'><FontAwesomeIcon icon={faLinkedinIn}/></a>  
+                <a target="_blank" className="w-10 h-10 rounded-md shadow text-slate-700 bg-slate-50 cursor-pointer hover:bg-white transition text-center flex items-center justify-center" href='https://www.linkedin.com/in/gabriel-sifr/'><FontAwesomeIcon icon={faLinkedinIn}/></a>  
               
               </div>
             </div>
@@ -54,8 +54,8 @@ export default function Home() {
                     <p className='font-medium'>O site da Associação do Bem-Estar Animal (ABEA) é uma plataforma online dedicada a promover e facilitar o cuidado com os animais. Ele serve como um recurso abrangente para todos os interessados no bem-estar animal, oferecendo uma variedade de informações, recursos e ferramentas úteis.</p>
                     
                     <div className='flex gap-5 w-full'>
-                      <a className="shadow rounded-md w-full py-2 flex justify-center items-center gap-2 cursor-pointer bg-white hover:bg-slate-50 text-slate-400 transition" target="_blank" href='https://orng-abea-project.vercel.app/'><FontAwesomeIcon icon={faGlobe}/> Visitar Website</a>
-                      <a className="shadow rounded-md w-full py-2 flex justify-center items-center gap-2 cursor-pointer bg-white hover:bg-slate-50 text-slate-400 transition" target="_blank" href="https://github.com/Player1mene/orng-abea"><FontAwesomeIcon icon={faGithub}/>  Ver Repositório</a>
+                      <a className="shadow rounded-md w-full py-2 flex justify-center items-center gap-2 cursor-pointer bg-white hover:bg-slate-50 text-slate-700 transition" target="_blank" href='https://orng-abea-project.vercel.app/'><FontAwesomeIcon icon={faGlobe}/> Visitar Website</a>
+                      <a className="shadow rounded-md w-full py-2 flex justify-center items-center gap-2 cursor-pointer bg-white hover:bg-slate-50 text-slate-700 transition" target="_blank" href="https://github.com/Player1mene/orng-abea"><FontAwesomeIcon icon={faGithub}/>  Ver Repositório</a>
                     </div>
 
                   </div>
@@ -66,8 +66,8 @@ export default function Home() {
                     <p className='font-medium'>O site da PhonkSec foi cuidadosamente desenvolvido para oferecer uma experiência de usuário fluida e intuitiva. Utilizando as mais recentes tecnologias web, o site é responsivo, adaptando-se perfeitamente a qualquer dispositivo, seja desktop, tablet ou smartphone. Sua interface limpa e moderna permite uma navegação fácil e sem complicações.</p>
                     
                     <div className='flex gap-5 w-full'>
-                      <a className="shadow rounded-md w-full py-2 flex justify-center items-center gap-2 cursor-pointer bg-white hover:bg-slate-50 text-slate-400 transition" target="_blank" href='https://phonksec.vercel.app/'><FontAwesomeIcon icon={faGlobe}/> Visitar Website</a>
-                      <a className="shadow rounded-md w-full py-2 flex justify-center items-center gap-2 cursor-pointer bg-white hover:bg-slate-50 text-slate-400 transition" target="_blank" href='https://github.com/Player1mene/phonksec'><FontAwesomeIcon icon={faGithub}/>  Ver Repositório</a>
+                      <a className="shadow rounded-md w-full py-2 flex justify-center items-center gap-2 cursor-pointer bg-white hover:bg-slate-50 text-slate-700 transition" target="_blank" href='https://phonksec.vercel.app/'><FontAwesomeIcon icon={faGlobe}/> Visitar Website</a>
+                      <a className="shadow rounded-md w-full py-2 flex justify-center items-center gap-2 cursor-pointer bg-white hover:bg-slate-50 text-slate-700 transition" target="_blank" href='https://github.com/Player1mene/phonksec'><FontAwesomeIcon icon={faGithub}/>  Ver Repositório</a>
                     </div>
 
                  </div>
